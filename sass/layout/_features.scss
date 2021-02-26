@@ -1,114 +1,114 @@
-.features-items{
-padding-top: 94px;
-padding-bottom: 94px;
-}
+// .features-items{
+// padding-top: 94px;
+// padding-bottom: 94px;
+// }
 
-.features{
-display: flex;
+// .features{
+// display: flex;
 
-    .item {
-    width: 270px;
-    }
-    .item:not(:last-child) {
-    margin-right: 30px;
-    }
+//     .item {
+//     width: 270px;
+//     }
+//     .item:not(:last-child) {
+//     margin-right: 30px;
+//     }
 
-    &__antenna{
-    width: 270px;
-    height: 120px;
-    padding: 25px 102px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    margin-bottom: 30px;
-    }
+//     &__antenna{
+//     width: 270px;
+//     height: 120px;
+//     padding: 25px 102px;
+//     background: #F5F4FA;
+//     border-radius: 4px;
+//     margin-bottom: 30px;
+//     }
 
-    &__clock{
-    width: 270px;
-    height: 120px;
-    padding: 25px 102px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    margin-bottom: 30px;
-    }
+//     &__clock{
+//     width: 270px;
+//     height: 120px;
+//     padding: 25px 102px;
+//     background: #F5F4FA;
+//     border-radius: 4px;
+//     margin-bottom: 30px;
+//     }
 
-    &__diagram{
-    width: 270px;
-    height: 120px;
-    padding: 25px 102px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    margin-bottom: 30px;
-    }
+//     &__diagram{
+//     width: 270px;
+//     height: 120px;
+//     padding: 25px 102px;
+//     background: #F5F4FA;
+//     border-radius: 4px;
+//     margin-bottom: 30px;
+//     }
 
-    &__astronaut{
-    width: 270px;
-    height: 120px;
-    padding: 25px 102px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    margin-bottom: 30px;
-    }
-}
+//     &__astronaut{
+//     width: 270px;
+//     height: 120px;
+//     padding: 25px 102px;
+//     background: #F5F4FA;
+//     border-radius: 4px;
+//     margin-bottom: 30px;
+//     }
+// }
 
-.features-title{
-margin-bottom: 10px;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.142;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #212121;
-}
+// .features-title{
+// margin-bottom: 10px;
+// font-weight: 700;
+// font-size: 14px;
+// line-height: 1.142;
+// letter-spacing: 0.03em;
+// text-transform: uppercase;
+// color: #212121;
+// }
 
 
-.features-text{
-font-weight: normal;
-font-size: 14px;
-line-height: 1.714;
-letter-spacing: 0.03em;
-color: var(--prymary-text-color);
-}
+// .features-text{
+// font-weight: normal;
+// font-size: 14px;
+// line-height: 1.714;
+// letter-spacing: 0.03em;
+// color: var(--prymary-text-color);
+// }
 
-.images{
-padding-bottom: 94px;
+// .images{
+// padding-bottom: 94px;
 
-    .item:not(:last-child){
-    margin-right: 30px;
-    }
-}
+//     .item:not(:last-child){
+//     margin-right: 30px;
+//     }
+// }
 
-.title-2{
-min-width: 376px;
-margin-bottom: 50px;
+// .title-2{
+// min-width: 376px;
+// margin-bottom: 50px;
 
-font-weight: bold;
-font-size: 36px;
-line-height: 1.166;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-}
+// font-weight: bold;
+// font-size: 36px;
+// line-height: 1.166;
+// text-align: center;
+// letter-spacing: 0.03em;
+// color: #212121;
+// }
 
-.images-image{
-position: relative;
+// .images-image{
+// position: relative;
 
-    >.images-overlay{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--font-family);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 70px;
-    background: rgba(47, 48, 58, 0.8);
-    }
-}
+//     >.images-overlay{
+//     position: absolute;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     font-family: var(--font-family);
+//     font-style: normal;
+//     font-weight: bold;
+//     font-size: 14px;
+//     line-height: 1.14;
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
+//     color: #FFFFFF;
+//     bottom: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 70px;
+//     background: rgba(47, 48, 58, 0.8);
+//     }
+// }
