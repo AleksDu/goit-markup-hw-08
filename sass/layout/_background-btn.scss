@@ -1,0 +1,71 @@
+
+.title>.container{
+display: block;
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+}
+
+.title{
+display: flex;
+padding-top: 200px;
+padding-bottom: 200px;
+margin: 0 auto;
+max-width: 1600px;
+height: 600px;
+
+
+background-image: linear-gradient(
+to right,
+rgba(47, 48, 58, .4),
+rgba(70, 71, 85, 0.4))
+, url(../images/background.jpg);
+background-color: #2F303A;
+}
+
+
+.title-buton-title{
+margin-bottom: 30px;
+
+font-weight: 900;
+font-size: 44px;
+line-height: 1.363;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF; 
+}
+
+
+.title-buton-buton{
+width: 200px;
+height: 50px;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+background-color: #2196F3;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.875;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.title-buton-buton:hover, .title-buton-buton:focus{
+color:#2196f3;
+background-color: #fff;
+}
+
+
+.title-buton-buton:active,
+.title-buton-title:active{
+     color: #2196F3;
+     background-color: #fff;
+}
