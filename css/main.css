@@ -50,15 +50,34 @@ image {
   display: block;
 }
 
+.section-padding {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-padding {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
 .container {
   width: 100%;
   padding: 0 15px;
-  margin: 0 auto;
 }
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
+    width: 450px;
+    margin: 0 auto;
   }
   .title .container {
     width: 360px;
@@ -74,7 +93,6 @@ image {
     width: 768px;
   }
   .title .container {
-    margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -456,7 +474,6 @@ image {
   margin: 0 auto;
   width: 480px;
   height: 400px;
-  padding: 118px 60px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -516,8 +533,6 @@ image {
     display: -ms-flexbox;
     display: flex;
     width: 768px;
-    height: 400px;
-    padding: 118px 204px;
   }
 }
 
@@ -525,7 +540,6 @@ image {
   .title {
     width: 1600px;
     height: 600px;
-    padding: 200px 453px;
   }
   .title-buton-title {
     font-size: 44px;
@@ -570,5 +584,147 @@ image {
 .title-buton-title:active {
   color: #2196F3;
   background-color: #fff;
+}
+
+.features-wrapper {
+  width: 450px;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #F5F4FA;
+  margin-bottom: 30px;
+}
+
+.features__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.features .item {
+  width: 450px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.features .item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.features-title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.features-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--prymary-text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .features {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: -15px;
+  }
+  .features .item {
+    width: 354px;
+    margin: 15px;
+    outline: 1px solod red;
+  }
+  .features .item:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .features-title {
+    text-align: left;
+  }
+  .features-wrapper {
+    width: 354px;
+    height: 120px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  width: 1200px;
+  .features .item:not(:last-child) {
+    margin-bottom: 0 px;
+  }
+  .features .item {
+    width: 270px;
+  }
+  .features-wrapper {
+    width: 270px;
+  }
+}
+
+.images {
+  padding-bottom: 94px;
+}
+
+.images .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.title-2 {
+  min-width: 376px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.images-image {
+  position: relative;
+}
+
+.images-image > .images-overlay {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
 }
 /*# sourceMappingURL=main.css.map */

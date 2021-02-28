@@ -1,12 +1,12 @@
 .container {
     width: 100%;
     padding: 0 15px;
-    margin: 0 auto;
 }
 
 @media screen and (min-width:480px) {
     .container {
-    width: 480px;
+    width: 450px;
+    margin: 0 auto;
     }
 
     .title .container {
@@ -22,7 +22,6 @@
     }
 
     .title .container{
-        margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
