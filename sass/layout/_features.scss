@@ -59,6 +59,7 @@ color: var(--prymary-text-color);
     width: 354px;
     margin: 15px;
     outline: 1px solod red;
+    
     &:not(:last-child) {
     margin-bottom: 15px;
     }
@@ -76,11 +77,14 @@ color: var(--prymary-text-color);
 }
 
 @media screen and (min-width: 1200px) {
-    width: 1200px;
+    .features{
+        width: 1200px;
+    }
 
     .features .item:not(:last-child) {
     margin-bottom: 0 px;
-}
+    }
+
 
     .features .item{
     width: 270px;
