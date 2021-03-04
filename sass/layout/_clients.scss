@@ -102,6 +102,10 @@ height: 45px;
 }
 
 @media screen and (min-width: 1200px){
+    .clients .container{
+    flex-wrap: wrap;
+}
+
     .title-clients{
     min-width: 390px;
     height: 42px;
@@ -112,6 +116,7 @@ height: 45px;
 
     .clients-list{
         width: 1200px;
+        
     }
 
     .clients-list .clients-item{

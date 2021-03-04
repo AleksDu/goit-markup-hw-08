@@ -550,7 +550,6 @@ img {
 }
 
 .web {
-  margin-left: 15px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -736,9 +735,6 @@ svg {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
   }
   .auth-nav-contacts-link {
     margin-bottom: 10px;
@@ -875,6 +871,35 @@ svg {
     fill: var(--prymary-text-color);
     -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
+    padding-top: 24px;
+    padding-top: 25px;
+  }
+  .auth-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .auth-nav .item + .item {
+    margin-left: 50px;
+  }
+  .logo {
+    margin-right: 93px;
   }
 }
 
@@ -1353,6 +1378,10 @@ svg {
 }
 
 @media screen and (min-width: 1200px) {
+  .clients .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
   .title-clients {
     min-width: 390px;
     height: 42px;
