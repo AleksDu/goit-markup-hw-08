@@ -1201,6 +1201,7 @@ svg {
   line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 60px;
 }
 
 .footer .web {
@@ -1314,7 +1315,6 @@ svg {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    margin-bottom: 60px;
   }
   .container {
     display: flex;
