@@ -503,10 +503,10 @@ svg {
     z-index: 1;
   }
   .mobile-menu {
-    width: 100vw;
-    max-width: 480px;
-    height: 100vh;
-    position: absolute;
+    position: fixed;
+    display: block;
+    overflow: auto;
+    z-index: 1000;
     top: 0;
     left: 0;
     background-color: #ffffff;
