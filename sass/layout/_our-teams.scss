@@ -3,7 +3,6 @@
 }
 
 .title-3{
-min-width: 205px;
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 30px;
@@ -118,11 +117,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
     }
 
-    .title-3{
-        
-        height: 33px;
-        margin-top: 60px;
-        }
+    
 
 }
 
@@ -143,8 +138,8 @@ display: flex;
     
 
     .title-3{
-        height: 42px;
-        margin-top: 94px;
         margin-bottom: 50px;
+        font-size: 36px;
+line-height: 1.167;
         }
 }

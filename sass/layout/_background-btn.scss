@@ -1,7 +1,7 @@
 .title{
 margin: 0 auto;
-width: 480px;
-height: 400px;
+// width: 480px;
+// height: 400px;
 // padding: 118px 60px;
 align-items: center;
 text-align: center;
@@ -35,13 +35,13 @@ background-position: center;
   screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .title {
-    background-image: url("/images/header/header-tablet@2x.png");
+    background-image: url("../images/header/header-tablet@2x.png");
   }
 }
 
 @media screen and (min-width: 1200px) {
   .title {
-    background-image: url("/images/header/header-desktop.png");
+    background-image: url("../images/header/header-desktop.png");
   }
 }
 
@@ -49,7 +49,7 @@ background-position: center;
   screen and (min-resolution: 192dpi) and (min-width: 1200px),
   screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .title {
-    background-image: url("/images/header/header-desktop@2x.png");
+    background-image: url("../images/header/header-desktop@2x.png");
   }
 }
 
@@ -61,7 +61,8 @@ background-position: center;
      letter-spacing: 0.06em;
      text-transform: uppercase;
      margin-bottom: 30px;
-     color: #FFFFFF; 
+     color: #FFFFFF;
+     margin: 0 auto 30px; 
      }
 
 @media screen and (min-width:480px) {
@@ -71,17 +72,12 @@ background-position: center;
 @media screen and (min-width: 768px) {
      .title {
      display: flex;
-     width: 768px;
-    //  height: 400px;
-    //  padding: 118px 204px;
-     }
+      }
 }
 
 @media screen and (min-width: 1200px){
      .title {
-     width: 1600px;
-     height: 600px;
-    //  padding: 200px 453px;
+     padding: 200px 0;
      }
      
      .title-buton-title{
