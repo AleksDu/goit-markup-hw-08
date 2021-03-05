@@ -1304,6 +1304,9 @@ svg {
   .footer .log {
     margin-right: 165px;
   }
+  .footer-subscribe-list {
+    flex-direction: column;
+  }
   .separator {
     display: flex;
     flex-direction: row;
@@ -1320,6 +1323,9 @@ svg {
 @media screen and (min-width: 1200px) {
   .container {
     align-items: baseline;
+    flex-direction: row;
+  }
+  .footer .footer-subscribe-list {
     flex-direction: row;
   }
   .footer .web {
@@ -1379,7 +1385,7 @@ svg {
 .progects .item {
   border: 1px solid #EEEEEE;
   margin-bottom: 15px;
-  width: 450px;
+  margin: 0 auto;
 }
 
 .progects .item:hover,
@@ -1426,6 +1432,7 @@ svg {
   .progects .item {
     margin: 15px;
     width: 354px;
+    margin: 0 auto;
   }
   .progects {
     display: flex;

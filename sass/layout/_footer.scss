@@ -126,6 +126,12 @@ padding-bottom: 0;
         .log{
         margin-right: 165px;
         }
+
+        
+    }
+
+    .footer-subscribe-list{
+        flex-direction: column;
     }
 
         .separator{
@@ -152,6 +158,10 @@ padding-bottom: 0;
     }
 
     .footer{
+
+        .footer-subscribe-list {
+    flex-direction: row;
+}
         // display: flex;
         .web{
         font-weight: 700;
