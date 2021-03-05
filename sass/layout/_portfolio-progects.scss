@@ -74,22 +74,38 @@ color: var(--prymary-text-color);
  }
 
 @media screen and (min-width: 768px){
+    .list-button{
+        display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 54px;
+    margin-bottom: 14px;
+    }
+
     .progects .item{
     margin: 15px;
     width: 354px;
     height: 440px;
+    
     }
 
     .progects{
     display: flex;
     flex-wrap: wrap;
+    margin: -15px;
     padding: 0;
     flex-direction: row;
-
     }
 }
 
  @media screen and (min-width: 1200px){
+    .list-button{
+        margin-bottom: 34px;
+    }
+
+    
+        
+    
     .progects{
     display: flex;
     flex-wrap: wrap;

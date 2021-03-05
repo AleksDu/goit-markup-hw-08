@@ -159,41 +159,48 @@
     <!-- секция чем мы занимаемся -->
     
         
-     <section class="images section-padding"> 
-        <h2 class="title-2">Чем мы занимаемся</h2>
-        <ul class="container">
-            <li class="item">
-                <div class="images-image">
-                    <picture>
-                        <source srcset="./images/whatwwedo/1decktop.webp 1x, ./images/whatwwedo/1decktop@2x.webp 2x"
-                            media="(min-width: 1200px)" type="image/webp">
-                        <source srcset="./images/whatwwedo/1decktop.jpg 1x, ./images/whatwwedo/1decktop@2x.jpg 2x"
-                            media="(min-width: 1200px)">
+     <section class="images"> 
+        <div class="container">
+            <h2 class="title-2">Чем мы занимаемся</h2>
+            <ul class="images-item">
+                <li class="item">
+                    <div class="images-image">
+                        <picture>
+                            <source srcset="./images/whatwwedo/1decktop.webp 1x, ./images/whatwwedo/1decktop@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp">
+                            <source srcset="./images/whatwwedo/1decktop.jpg 1x, ./images/whatwwedo/1decktop@2x.jpg 2x"
+                                media="(min-width: 1200px)">
                             <img src="./images/whatwwedo/1decktop.jpg" alt="пишет код">
-                    </picture>
-                <p class="images-overlay">Десктопные приложения</p></div></li>
-            <li class="item">
-                <div class="images-image">
-                    <picture>
-                    <source srcset="./images/whatwwedo/2decktop.webp 1x, ./images/whatwwedo/2decktop@2x.webp 2x" media="(min-width: 1200px)"
-                        type="image/webp">
-                    <source srcset="./images/whatwwedo/2decktop.jpg 1x, ./images/whatwwedo/2decktop@2x.jpg 2x" media="(min-width: 1200px)">
-                    <img src="./images/whatwwedo/2decktop.jpg" alt="пишет мобильный девайс">
-                    </picture>
-                <p class="images-overlay">Мобильные приложения</p>
-                </div></li>
-            <li class="item">
-                <div class="images-image">
-                <picture>
-                    <source srcset="./images/whatwwedo/3decktop.webp 1x, ./images/whatwwedo/3decktop@2x.webp 2x"
-                        media="(min-width: 1200px)" type="image/webp">
-                    <source srcset="./images/whatwwedo/3decktop.jpg 1x, ./images/whatwwedo/3decktop@2x.jpg 2x"
-                        media="(min-width: 1200px)">
-                    <img src="./images/whatwwedo/3decktop.jpg" alt="Дизайнерские решения">
-                </picture>
-            <p class="images-overlay">Дизайнерские решения</p>
-            </div></li>
-        </ul>
+                        </picture>
+                        <p class="images-overlay">Десктопные приложения</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="images-image">
+                        <picture>
+                            <source srcset="./images/whatwwedo/2decktop.webp 1x, ./images/whatwwedo/2decktop@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp">
+                            <source srcset="./images/whatwwedo/2decktop.jpg 1x, ./images/whatwwedo/2decktop@2x.jpg 2x"
+                                media="(min-width: 1200px)">
+                            <img src="./images/whatwwedo/2decktop.jpg" alt="пишет мобильный девайс">
+                        </picture>
+                        <p class="images-overlay">Мобильные приложения</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="images-image">
+                        <picture>
+                            <source srcset="./images/whatwwedo/3decktop.webp 1x, ./images/whatwwedo/3decktop@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp">
+                            <source srcset="./images/whatwwedo/3decktop.jpg 1x, ./images/whatwwedo/3decktop@2x.jpg 2x"
+                                media="(min-width: 1200px)">
+                            <img src="./images/whatwwedo/3decktop.jpg" alt="Дизайнерские решения">
+                        </picture>
+                        <p class="images-overlay">Дизайнерские решения</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </section> 
     <!-- секция наша команда -->
     <section class="our-team section-padding">
@@ -445,66 +452,67 @@
     
     <footer class="footer">
         <div class="container">
-            <div class="separator">
-                <div class="log">
-                    <a class="logo" href=""><span class="web">Web</span>Studio</a>
-                    <address>
-                        <div class="footer-address">г. Киев, пр-т Леси Украинки, 26</div>
-                        <a class="footer-mail" href="mailto:info@example.com">info@example.com</a><br />
-                        <a class="footer-tel" href="tel:+380991111111">+38 099 111 11 11</a>
-                    </address>
+            <div class="footer-wrap">
+                <div class="separator">
+                    <div class="log">
+                        <a class="logo" href=""><span class="web">Web</span>Studio</a>
+                        <address>
+                            <div class="footer-address">г. Киев, пр-т Леси Украинки, 26</div>
+                            <a class="footer-mail" href="mailto:info@example.com">info@example.com</a><br />
+                            <a class="footer-tel" href="tel:+380991111111">+38 099 111 11 11</a>
+                        </address>
+                    </div>
+                
+                
+                
+                    <!-- social links -->
+                    <div class="social-links">
+                        <h3 class="call">присоединяйтесь</h3>
+                        <ul class="social-list social-list-footer">
+                            <li class="social-list-item">
+                                <a href="" class="social-list-link">
+                                    <svg class="social-list-icon">
+                                        <use href="./images/sprite.svg#instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="" class="social-list-link">
+                                    <svg class="social-list-icon">
+                                        <use href="./images/sprite.svg#twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="" class="social-list-link">
+                                    <svg class="social-list-icon">
+                                        <use href="./images/sprite.svg#facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="" class="social-list-link">
+                                    <svg class="social-list-icon">
+                                        <use href="./images/sprite.svg#linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                
-                
-                
-                <!-- social links -->
-                <div class="social-links">
-                    <h3 class="call">присоединяйтесь</h3>
-                    <ul class="social-list social-list-footer">
-                        <li class="social-list-item">
-                            <a href="" class="social-list-link">
-                                <svg class="social-list-icon">
-                                    <use href="./images/sprite.svg#instagram"></use>
-                                </svg>
-                            </a>
+                <form class="footer-subscribe">
+                    <h3 class="call">Подпишитесь на рассылку</h3>
+                    <ul class="footer-subscribe-list">
+                        <li class="subscribe-list-item">
+                            <input type="email" name="email" placeholder="E-mail" class="subscribe-email" />
                         </li>
-                        <li class="social-list-item">
-                            <a href="" class="social-list-link">
-                                <svg class="social-list-icon">
-                                    <use href="./images/sprite.svg#twitter"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="social-list-item">
-                            <a href="" class="social-list-link">
-                                <svg class="social-list-icon">
-                                    <use href="./images/sprite.svg#facebook"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="social-list-item">
-                            <a href="" class="social-list-link">
-                                <svg class="social-list-icon">
-                                    <use href="./images/sprite.svg#linkedin"></use>
-                                </svg>
-                            </a>
+                        <li class="subscribe-list-item">
+                            <button type="submit" class="subscribe-button button">
+                                Подписаться</button>
                         </li>
                     </ul>
-                </div>
-            </div>
-            <form class="footer-subscribe">
-                <h3 class="call">Подпишитесь на рассылку</h3>
-                <ul class="footer-subscribe-list">
-                    <li class="subscribe-list-item">
-                        <input type="email" name="email"
-                         placeholder="E-mail" class="subscribe-email" />
-                    </li>
-                    <li class="subscribe-list-item">
-                        <button type="submit" class="subscribe-button button">
-                            Подписаться</button>
-                    </li>
-                </ul>
-            </form> 
+                </form>
+            </div> 
         </div>
     </footer> 
 

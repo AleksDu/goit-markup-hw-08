@@ -94,7 +94,6 @@ img {
 
 @media screen and (min-width: 768px) {
   .container {
-    display: flex;
     width: 768px;
   }
   .title .container {
@@ -106,7 +105,6 @@ img {
 
 @media screen and (min-width: 1200px) {
   .container {
-    display: flex;
     width: 1200px;
   }
   .title .container {
@@ -131,7 +129,6 @@ img {
   top: 50%;
   transform: translate(-50%, -50%);
   width: 90%;
-  height: 95%;
   overflow: scroll;
   background: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -751,9 +748,6 @@ svg {
   .auth-nav .item + .item {
     margin-left: 50px;
   }
-  .logo {
-    margin-right: 93px;
-  }
 }
 
 .title {
@@ -1161,6 +1155,9 @@ svg {
 }
 
 @media screen and (min-width: 1200px) {
+  .section-padding {
+    padding-bottom: 94px;
+  }
   .clients .container {
     flex-wrap: wrap;
   }
@@ -1310,27 +1307,28 @@ svg {
   }
   .footer-subscribe-list {
     flex-direction: column;
+    align-items: center;
   }
   .separator {
     display: flex;
     flex-direction: row;
     align-items: baseline;
   }
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
 }
 
 @media screen and (min-width: 1200px) {
-  .container {
+  .footer-wrap {
+    display: flex;
     align-items: baseline;
+    justify-content: space-between;
     flex-direction: row;
+  }
+  .footer {
+    display: flex;
   }
   .footer .footer-subscribe-list {
     flex-direction: row;
+    align-items: baseline;
   }
   .footer .web {
     font-weight: 700;
@@ -1340,6 +1338,7 @@ svg {
   .footer .log {
     margin-right: 70px;
     text-align: left;
+    margin-bottom: 0;
   }
   .footer .footer-address {
     width: 231px;
@@ -1433,6 +1432,13 @@ svg {
 }
 
 @media screen and (min-width: 768px) {
+  .list-button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 54px;
+    margin-bottom: 14px;
+  }
   .progects .item {
     margin: 15px;
     width: 354px;
@@ -1441,12 +1447,16 @@ svg {
   .progects {
     display: flex;
     flex-wrap: wrap;
+    margin: -15px;
     padding: 0;
     flex-direction: row;
   }
 }
 
 @media screen and (min-width: 1200px) {
+  .list-button {
+    margin-bottom: 34px;
+  }
   .progects {
     display: flex;
     flex-wrap: wrap;
@@ -1510,7 +1520,12 @@ svg {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
+  .images-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .title-2 {
     font-size: 36px;
     line-height: 1.167;
