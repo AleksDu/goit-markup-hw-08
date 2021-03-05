@@ -20,7 +20,7 @@
                 
                 <ul class="site-nav">
                     <li class="item"><a class="link site-nav-studio active" href="https://aleksdu.github.io/goit-markup-hw-08/">Студия</a></li>
-                    <li class="item"><a class="link site-nav-portfolio"
+                    <li class="item"><a class="link site-nav-portfolio active"
                             href="https://aleksdu.github.io/goit-markup-hw-08/portfolio">Портфолио</a></li>
                     <li class="item"><a class="link site-nav-contacts" href="">Контакты</a></li>
                 </ul>
@@ -57,13 +57,13 @@
             
                 <ul class="mobile-menu-nav">
                     <li class="mobile-menu-nav-item">
-                        <a class="mobile-menu-link link" href="#"> <span class="studio">Студия</span> </a>
+                        <a class="mobile-menu-link link" href="./index.html"> <span class="studio">Студия</span> </a>
                     </li>
                     <li class="mobile-menu-nav-item">
                         <a class="mobile-menu-link link" href="./portfolio.html">Портфолио</a>
                     </li>
                     <li class="mobile-menu-nav-item">
-                        <a class="mobile-menu-link link" href="#">Контакты</a>
+                        <a class="mobile-menu-link link" href="./">Контакты</a>
                     </li>
                 </ul>
                 <ul class="mobile-menu-contacts">
@@ -163,16 +163,34 @@
         <h2 class="title-2">Чем мы занимаемся</h2>
         <ul class="container">
             <li class="item">
-                <div class="images-image"><img src="./images/img.jpg" alt="пишет код" width="370">
+                <div class="images-image">
+                    <picture>
+                        <source srcset="./images/whatwwedo/1decktop.webp 1x, ./images/whatwwedo/1decktop@2x.webp 2x"
+                            media="(min-width: 1200px)" type="image/webp">
+                        <source srcset="./images/whatwwedo/1decktop.jpg 1x, ./images/whatwwedo/1decktop@2x.jpg 2x"
+                            media="(min-width: 1200px)">
+                            <img src="./images/whatwwedo/1decktop.jpg" alt="пишет код">
+                    </picture>
                 <p class="images-overlay">Десктопные приложения</p></div></li>
             <li class="item">
                 <div class="images-image">
-                <img src="./images/img(1).jpg" alt="пишет мобильный девайс" width="370">
+                    <picture>
+                    <source srcset="./images/whatwwedo/2decktop.webp 1x, ./images/whatwwedo/2decktop@2x.webp 2x" media="(min-width: 1200px)"
+                        type="image/webp">
+                    <source srcset="./images/whatwwedo/2decktop.jpg 1x, ./images/whatwwedo/2decktop@2x.jpg 2x" media="(min-width: 1200px)">
+                    <img src="./images/whatwwedo/2decktop.jpg" alt="пишет мобильный девайс">
+                    </picture>
                 <p class="images-overlay">Мобильные приложения</p>
                 </div></li>
             <li class="item">
                 <div class="images-image">
-                <img src="./images/img(2).jpg" alt="выбирает цвет" width="370">
+                <picture>
+                    <source srcset="./images/whatwwedo/3decktop.webp 1x, ./images/whatwwedo/3decktop@2x.webp 2x"
+                        media="(min-width: 1200px)" type="image/webp">
+                    <source srcset="./images/whatwwedo/3decktop.jpg 1x, ./images/whatwwedo/3decktop@2x.jpg 2x"
+                        media="(min-width: 1200px)">
+                    <img src="./images/whatwwedo/3decktop.jpg" alt="Дизайнерские решения">
+                </picture>
             <p class="images-overlay">Дизайнерские решения</p>
             </div></li>
         </ul>

@@ -26,7 +26,6 @@ flex-direction: column;
         border: 1px solid #EEEEEE;
     margin-bottom: 15px;
     width: 450px;
-    // height: 404px;
     }
 
     .item:hover,
@@ -77,7 +76,6 @@ color: var(--prymary-text-color);
     .progects .item{
     margin: 15px;
     width: 354px;
-    height: 440px;
     }
 
     .progects{
@@ -100,7 +98,6 @@ color: var(--prymary-text-color);
     
      .progects .item{
     width: 370px;
-    height: 404px;
     
     .item:not(:nth-child(3n)){
     margin-right: 30px;

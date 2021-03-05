@@ -497,6 +497,8 @@ svg {
     z-index: 1;
   }
   .mobile-menu {
+    width: 100vw;
+    height: 100vw;
     width: 100%;
     max-width: 480px;
     height: 100vh;
@@ -553,6 +555,9 @@ svg {
     flex-direction: column;
     margin-top: 302px;
     margin-bottom: 64px;
+  }
+  .mobile-menu-contacts-tel {
+    margin-bottom: 32px;
   }
   .mobile-menu-nav-tel {
     width: 296px;
@@ -1421,7 +1426,6 @@ svg {
   .progects .item {
     margin: 15px;
     width: 354px;
-    height: 440px;
   }
   .progects {
     display: flex;
@@ -1440,7 +1444,6 @@ svg {
   }
   .progects .item {
     width: 370px;
-    height: 404px;
   }
   .progects .item .item:not(:nth-child(3n)) {
     margin-right: 30px;
