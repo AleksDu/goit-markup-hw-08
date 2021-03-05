@@ -1271,7 +1271,6 @@ svg {
 .call {
   margin-bottom: 20px;
   text-align: center;
-  margin-top: 60px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -1315,6 +1314,7 @@ svg {
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    margin-bottom: 60px;
   }
   .container {
     display: flex;
