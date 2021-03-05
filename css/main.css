@@ -1384,8 +1384,8 @@ svg {
 
 .progects .item {
   border: 1px solid #EEEEEE;
-  margin-bottom: 15px;
   margin: 0 auto;
+  margin: 15px;
 }
 
 .progects .item:hover,
@@ -1431,7 +1431,6 @@ svg {
 @media screen and (min-width: 768px) {
   .progects .item {
     margin: 15px;
-    width: 354px;
     margin: 0 auto;
   }
   .progects {

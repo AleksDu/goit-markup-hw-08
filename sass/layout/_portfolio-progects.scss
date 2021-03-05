@@ -24,8 +24,8 @@ flex-direction: column;
  
     .item{
         border: 1px solid #EEEEEE;
-    margin-bottom: 15px;
-    margin: 0 auto;
+        margin: 0 auto;
+        margin: 15px;
     }
 
     .item:hover,
@@ -75,7 +75,6 @@ color: var(--prymary-text-color);
 @media screen and (min-width: 768px){
     .progects .item{
     margin: 15px;
-    width: 354px;
     margin: 0 auto;
     }
 
