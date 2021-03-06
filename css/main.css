@@ -509,6 +509,7 @@ svg {
     background-color: #ffffff;
     width: 100%;
     height: 100%;
+    max-width: 796px;
     left: 50%;
     transform: translateX(-50%);
     padding: 48px 40px;
@@ -759,6 +760,8 @@ svg {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-top: 118px;
+  padding-bottom: 118px;
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px), screen and (min-resolution: 192dpi) and (min-width: 320px), screen and (min-resolution: 2dppx) and (min-width: 320px) {
@@ -1155,9 +1158,6 @@ svg {
 }
 
 @media screen and (min-width: 1200px) {
-  .section-padding {
-    padding-bottom: 94px;
-  }
   .clients .container {
     flex-wrap: wrap;
   }
@@ -1376,9 +1376,6 @@ svg {
 }
 
 .progects {
-  padding-top: 46px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -1473,6 +1470,10 @@ svg {
   .progects .item .item:nth-last-child(-n+7) {
     margin-bottom: 30px;
   }
+}
+
+.images {
+  padding-bottom: 94px;
 }
 
 .images .item:not(:last-child) {
