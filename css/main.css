@@ -501,15 +501,17 @@ svg {
   }
   .mobile-menu {
     position: fixed;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     overflow: auto;
     z-index: 1000;
     top: 0;
     left: 0;
     background-color: #ffffff;
     width: 100%;
-    height: 100%;
-    max-width: 796px;
+    height: 100vh;
+    max-height: 796px;
     left: 50%;
     transform: translateX(-50%);
     padding: 48px 40px;
@@ -555,8 +557,6 @@ svg {
   .mobile-menu-contacts {
     display: flex;
     flex-direction: column;
-    margin-top: 302px;
-    margin-bottom: 64px;
   }
   .mobile-menu-contacts-tel {
     margin-bottom: 32px;
